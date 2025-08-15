@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+     	<servlet-name>customerRegistrationServlet</servlet-name>
+     	<servlet-class>pk.servlet.customerRegistrationServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>customerRegistrationServlet</servlet-name>
+     	<url-pattern>/customerRegistrationServlet</url-pattern>
+     </servlet-mapping>
+     
+      <servlet>
+     	<servlet-name>supplierDashboardServlet</servlet-name>
+     	<servlet-class>pk.servlet.supplierDashboardServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>supplierDashboardServlet</servlet-name>
+     	<url-pattern>/supplierDashboardServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>updateSupplierServlet</servlet-name>
+     	<servlet-class>pk.servlet.updateSupplierServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateSupplierServlet</servlet-name>
+     	<url-pattern>/updateSupplierServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>deleteSupplierServlet</servlet-name>
+     	<servlet-class>pk.servlet.deleteSupplierServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>deleteSupplierServlet</servlet-name>
+     	<url-pattern>/deleteSupplierServlet</url-pattern>
+     </servlet-mapping>
+     
+      <servlet>
+     	<servlet-name>acceptOrderServlet</servlet-name>
+     	<servlet-class>pk.servlet.acceptOrderServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>acceptOrderServlet</servlet-name>
+     	<url-pattern>/acceptOrderServlet</url-pattern>
+     </servlet-mapping>
+     
+      <servlet>
+     	<servlet-name>declineOrderServlet</servlet-name>
+     	<servlet-class>pk.servlet.declineOrderServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>declineOrderServlet</servlet-name>
+     	<url-pattern>/declineOrderServlet</url-pattern>
+     </servlet-mapping>
+     
+
+
+</web-app>
